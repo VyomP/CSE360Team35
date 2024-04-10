@@ -1,2 +1,0 @@
-patientID1,name1,phoneNumber1,insuranceProvider1
-patientID2,name2,phoneNumber2,insuranceProvider2
