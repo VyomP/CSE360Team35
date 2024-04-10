@@ -1,3 +1,0 @@
-patientID1,urgency1,subject1,message1
-patientID2,urgency2,subject2,message2patientID1,urgency1,subject1,message1
-patientID2,urgency2,subject2,message2
