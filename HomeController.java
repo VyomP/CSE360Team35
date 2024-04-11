@@ -1,7 +1,8 @@
 package PatientPortal;
 
-import java.awt.TextField;
+import javafx.scene.control.TextField;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -28,7 +29,10 @@ public class HomeController {
 	@FXML
 	Label nameLabel;
 	
+	String un;
+	
 	public void displayName(String username) {
+		un = username;
 		nameLabel.setText("Hello: " + username);
 	}
 	
@@ -76,6 +80,20 @@ public class HomeController {
 		scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
+		
+		File msgFil = new File(un + "MSG.txt");
+		msgFil.createNewFile();
+		FileWriter fw2 = new FileWriter(msgFil);
+		BufferedWriter bw2 = new BufferedWriter(fw2);
+		//save all values to the patientID file
+		bw2.write("\n");
+		bw2.write(sub.getText() + "\n");
+		bw2.write(to.getText() + "\n");
+		bw2.write(gen.getText() + "\n");
+		
+		//close writer
+		bw2.flush();
+		bw2.close();
 	}
 	
 }

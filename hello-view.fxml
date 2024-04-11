@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane fx:id="nursepage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.nurseViewController">
+<Pane fx:id="nursepage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NursePortal.nurseViewController">
    <children>
       <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#logout" text="Logouot" />
       <Button layoutX="229.0" layoutY="54.0" mnemonicParsing="false" onAction="#appointments" prefHeight="26.0" prefWidth="117.0" text="Appointments" />

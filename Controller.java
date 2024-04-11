@@ -1,4 +1,4 @@
-package application;
+package PatientPortal;
 
 import java.io.IOException;
 
@@ -22,6 +22,7 @@ public class Controller {
 	private Parent root;
 		
 	
+	/*
 	public void switchToRegister(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("NewPatient.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -29,6 +30,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
+	*/
 	
 	
 	public void switchToHome(ActionEvent event) throws IOException {
@@ -39,6 +41,7 @@ public class Controller {
 		stage.show();
 	}
 	
+	/*
 	public void switchToMainScene(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -46,6 +49,7 @@ public class Controller {
 		stage.setScene(scene);
 		stage.show();
 	}
+	*/
 	
 	public void login(ActionEvent event) throws IOException {
 		

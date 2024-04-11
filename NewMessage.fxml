@@ -63,9 +63,9 @@
          </font>
       </Button>
       <Label fx:id="nameLabel" layoutX="43.0" layoutY="193.0" text="Hello:" />
-      <TextField layoutX="43.0" layoutY="62.0" prefHeight="335.0" prefWidth="420.0" />
-      <TextField layoutX="43.0" layoutY="48.0" prefHeight="26.0" prefWidth="420.0" text="To: " />
+      <TextField fx:id="gen" layoutX="43.0" layoutY="62.0" prefHeight="335.0" prefWidth="420.0" />
+      <TextField fx:id="to" layoutX="43.0" layoutY="48.0" prefHeight="26.0" prefWidth="420.0" text="To: " />
       <Button layoutX="390.0" layoutY="354.0" mnemonicParsing="false" onAction="#save" text="SEND" />
-      <TextField layoutX="43.0" layoutY="72.0" prefHeight="26.0" prefWidth="420.0" promptText="Subject" />
+      <TextField fx:id="sub" layoutX="43.0" layoutY="72.0" prefHeight="26.0" prefWidth="420.0" promptText="Subject" />
    </children>
 </AnchorPane>
