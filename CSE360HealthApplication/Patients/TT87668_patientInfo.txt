@@ -1,0 +1,15 @@
+TEST
+T
+TEST
+123
+123
+124
+Current Allergies 
+Hay Fever 
+Medication history 
+Antibiotics 
+Antihistamines 
+Bronchodilators 
+UnitedHealthCare
+
+helo
