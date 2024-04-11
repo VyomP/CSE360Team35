@@ -76,16 +76,6 @@ public class HomeController {
 		scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
-		String fileName=  "1_Message.txt";
-			
-		try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
-                writer.write(to.getText() + "\n");
-                //writer.write(sub.getText() + "\n");
-                writer.write(gen.getText() + "\n");
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
-		System.out.print("msg");
 	}
 	
 }
